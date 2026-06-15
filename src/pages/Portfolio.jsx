@@ -6,10 +6,11 @@ export default function Portfolio() {
 
   const portfolioItems = [
     {
-      title: "Enterprise SaaS Dashboards",
-      tag: "SaaS / Web App",
-      desc: "An all-in-one portal supporting user management, analytics dashboards, real-time notifications, and operations panels.",
-      image: "/assets/portfolio_1.png"
+      title: "MasterFit Academy Portal",
+      tag: "Web App & Management System",
+      desc: "An all-in-one attendance, fee management, and student management portal built to streamline branch and batch administration.",
+      image: "/assets/masterfit_clean.png",
+      link: "https://masterfit-delta.vercel.app/"
     },
     {
       title: "High-Performance Web Platforms",
@@ -72,8 +73,13 @@ export default function Portfolio() {
                   <span className="portfolio-tag">{item.tag}</span>
                   <h3>{item.title}</h3>
                   <p className="portfolio-desc">{item.desc}</p>
-                  <a href="#contact" className="portfolio-link">
-                    Inquire Project <i className="fa-solid fa-arrow-right-long"></i>
+                  <a 
+                    href={item.link || "#contact"} 
+                    className="portfolio-link" 
+                    target={item.link ? "_blank" : undefined} 
+                    rel={item.link ? "noopener noreferrer" : undefined}
+                  >
+                    {item.link ? "Visit Project" : "Inquire Project"} <i className="fa-solid fa-arrow-right-long"></i>
                   </a>
                 </div>
               </div>

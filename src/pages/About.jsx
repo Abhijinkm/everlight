@@ -20,7 +20,7 @@ export default function About() {
       name: "ARJUN KK",
       role: "Co-Founder & Technical Lead",
       bio: "Frontend, Backend, and Web Technology Specialist. Standardizes high-performance code and database design, ensuring every learning platform, server architecture, and website developed is lightning fast, secure, scalable, and responsive.",
-      image: "/assets/founder_2.png",
+      image: "/assets/founder_2.jpg",
       socials: [
         { icon: "fa-brands fa-github", link: "#", label: "GitHub" },
         { icon: "fa-brands fa-linkedin-in", link: "#", label: "LinkedIn" },
@@ -43,23 +43,36 @@ export default function About() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       // Header animation
-      gsap.from('.section-header', {
-        y: 40,
-        opacity: 0,
-        duration: 0.8,
-        ease: 'power2.out'
-      });
+      gsap.fromTo('.section-header', 
+        {
+          y: 40,
+          opacity: 0
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          ease: 'power2.out'
+        }
+      );
 
       // Founders cards scale and slide up
-      gsap.from('.about-card', {
-        y: 80,
-        opacity: 0,
-        scale: 0.95,
-        duration: 0.9,
-        stagger: 0.15,
-        ease: 'power3.out',
-        delay: 0.2
-      });
+      gsap.fromTo('.about-card', 
+        {
+          y: 80,
+          opacity: 0,
+          scale: 0.95
+        },
+        {
+          y: 0,
+          opacity: 1,
+          scale: 1,
+          duration: 0.9,
+          stagger: 0.15,
+          ease: 'power3.out',
+          delay: 0.2
+        }
+      );
     }, containerRef);
 
     return () => ctx.revert();
