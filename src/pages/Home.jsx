@@ -203,7 +203,7 @@ export default function Home() {
             
             <div className="hero-collabs" id="hero-founder-avatars">
               <div className="partner-avatars">
-                <img src="/assets/founder_1.jpg" alt="Founder 1" className="avatar-mini" />
+                <img src="/assets/founder_abhijin_white.png" alt="Founder 1" className="avatar-mini" />
                 <img src="/assets/founder_2.png" alt="Founder 2" className="avatar-mini" />
                 <img src="/assets/founder_3.jpg" alt="Founder 3" className="avatar-mini" />
               </div>

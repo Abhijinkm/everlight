@@ -9,7 +9,7 @@ export default function About() {
       name: "ABHIJIN KM",
       role: "Founder & Creative Director",
       bio: "Visionary leader focused on digital innovation. Orchestrates agency goals and designs solutions that bridge the gap between client requirements and bleeding-edge web technologies.",
-      image: "/assets/founder_1.jpg",
+      image: "/assets/founder_abhijin_white.png",
       socials: [
         { icon: "fa-brands fa-twitter", link: "#", label: "Twitter" },
         { icon: "fa-brands fa-linkedin-in", link: "#", label: "LinkedIn" },
