@@ -6,11 +6,10 @@ export default function Portfolio() {
 
   const portfolioItems = [
     {
-      title: "MasterFit Academy Portal",
-      tag: "Web App & Management System",
-      desc: "An all-in-one attendance, fee management, and student management portal built to streamline branch and batch administration.",
-      image: "/assets/masterfit_clean.png",
-      link: "https://masterfit-delta.vercel.app/"
+      title: "Synapse Interactive Portal",
+      tag: "E-Learning & Interactive Coding",
+      desc: "An advanced quantum computing platform featuring interactive syllabus modules, video lectures, and live code execution with Qiskit.",
+      image: "/assets/synapse.jpg"
     },
     {
       title: "High-Performance Web Platforms",
