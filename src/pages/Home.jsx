@@ -16,9 +16,9 @@ export default function Home() {
   const testimonials = [
     {
       quote: "Everlight Studio built our company's web application in record time. The user experience is flawless and our customer conversion rates have skyrocketed. The custom dashboard is incredibly intuitive!",
-      author: "Sarah Jenkins",
-      role: "CEO, Summit Enterprises",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=120"
+      author: "NAVAS KC",
+      role: "CEO, MASTER FIT",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120"
     },
     {
       quote: "As a tech startup founder, I needed a landing page that converts traffic immediately. Everlight designed a glassmorphic masterpiece. Our leads doubled within two weeks of launch!",
